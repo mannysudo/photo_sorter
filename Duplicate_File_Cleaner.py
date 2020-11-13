@@ -42,6 +42,7 @@ def scanner(pam1, pam2, pam3):
 
 if __name__ == "__main__":
 
+    print(os.getcwd())
     dir_arr = []
     f = open("inputs.txt", "r")
     # Strips the newline character
